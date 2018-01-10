@@ -1,0 +1,82 @@
+ #main{
+      width: 1684px;
+      height: 3259px;
+      margin: 0 auto;
+      background-image: url(../img/bgbg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+  .list{
+    width: 1350px;
+    height: 360px;
+    position: absolute;
+    white-space : nowrap;
+    overflow-x: hidden;
+  }
+  .list .c-list{
+    width: 450px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 40px;
+  }
+  .list .m-list>div{
+    margin-bottom: 5px;
+    white-space: normal;
+  }
+  .list .m-list>div{
+    color: firebrick;
+  }
+  .list .m-list>div:nth-child(even){
+    color:darkcyan;
+  }
+  .list_move{
+    position: absolute;
+    width: 1350px;
+    height: 20px;
+    text-align: center;
+    margin-top: 380px;
+  }
+  .move_btn{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 100%;
+    border : 1px solid red;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .move_btn:hover{
+    background-color: red;
+  }
+  .move_btn.active{
+    background-color: red;
+  }
+  
+  .m1{ 
+    top: 440px;
+    left: 330px;
+  }
+  .m2{ 
+    top: 860px;
+    right: 330px;
+  }
+  .m3{ 
+    top: 1280px;
+    left: 330px;
+  }
+  .m4{ 
+    top: 1700px;
+    right: 330px;
+  }
+  .m5{ 
+    top: 2120px;
+    left: 330px;
+  }
+  .m6{
+    top: 2540px;
+    right: 330px;
+  }
+    
